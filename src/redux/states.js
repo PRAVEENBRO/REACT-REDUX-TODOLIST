@@ -1,14 +1,14 @@
 export let todos = [
     {
         id: 1,
-        name: 'One'
+        name: 'study react'
     },
     {
         id: 2,
-        name: 'Two'
+        name: 'eat'
     },
     {
         id: 3,
-        name: 'Three'
+        name: 'sleep'
     }
 ]
