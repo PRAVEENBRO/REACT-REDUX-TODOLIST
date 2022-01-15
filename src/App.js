@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Card } from 'react-bootstrap';
 import './App.css';
+import TodoInputs from './components/TodoInputs';
+import TodoList from './components/TodoList';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App ">
+      <Card style={{ margin: '0rem auto' }} className='card'>
+        <TodoInputs />
+        <TodoList />
+      </Card>
     </div>
   );
+
 }
 
 export default App;
